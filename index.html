@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Colorful Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="title">🌈 Welcome to My Colorful Page</h1>
+    <button onclick="toggleDarkMode()" class="dark-mode-btn">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <section class="controls">
+      <p id="description">Click the buttons below to interact with this colorful page!</p>
+      <div class="button-group">
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="changeStyle()">Change Style</button>
+        <button onclick="toggleBox()">Add/Remove Box</button>
+      </div>
+    </section>
+
+    <section id="container" class="dynamic-section">
+      <!-- Dynamic content will appear here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>✨ Created for fun and interactivity ✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
